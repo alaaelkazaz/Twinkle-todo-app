@@ -1,0 +1,6 @@
+{
+    "db":"mongodb://localhost/twinkle",   
+    "port": 7000,
+    "name":"Twinkle Note app",
+    "jwtPrivateKey":""
+}
