@@ -26,7 +26,7 @@ class NoteCard extends Component {
                 <div className={"card text-white mb-3 bg-warning"} style={{maxWidth: 300}}>
                     <div className="card-body">
                         <input 
-                        className="d-flex form-control card-title"
+                        className="form-control card-title"
                         style={{backgroundColor:"transparent",
                                  borderColor:"transparent",maxWidth:200, display:"inline-block"}}
                         id={this.props.id} 
