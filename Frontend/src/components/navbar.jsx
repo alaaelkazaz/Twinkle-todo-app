@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import {Link, NavLink} from 'react-router-dom';
 class Navbar extends Component {
+    // to be added when we add profiles features 
+    /*
+            <li className="nav-item">
+                <NavLink className="nav-link" to="/me">{user.name}</NavLink>
+            </li>
+    */
     render() { 
         const {user} = this.props;
         return (  
@@ -29,10 +35,6 @@ class Navbar extends Component {
                                 </React.Fragment>)}
 
                                 {user && (<React.Fragment> 
-                                <li className="nav-item">
-                                    <NavLink className="nav-link" to="/me">{user.name}</NavLink>
-                                </li>
-
                                 <li className="nav-item">
                                     <NavLink className="nav-link" to="/logout">Logout</NavLink>
                                 </li>

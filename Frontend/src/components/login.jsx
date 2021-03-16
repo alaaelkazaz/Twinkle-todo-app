@@ -12,7 +12,7 @@ class Login extends Component {
     }
     };
     handleSubmit = async (e)=>{
-        e.preventDefault();
+        //e.preventDefault();
         try {
             const { account } = this.state;
             const result = await auth.login(account.email, account.password);
